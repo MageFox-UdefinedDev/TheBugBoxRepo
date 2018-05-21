@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{048D1634-6139-485F-BD92-82FE126EE71E}</ProjectGuid>
+    <ProjectGuid>{912ECEDE-B35E-4590-8C7A-44ABCDBB3EC7}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>BugBox.Droid</RootNamespace>
@@ -82,7 +82,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BugBox\BugBox.csproj">
-      <Project>{4535CA13-E5AC-401D-94B0-536291922789}</Project>
+      <Project>{6249486F-DD0C-4AE7-A2DD-4DC4F862B5E8}</Project>
       <Name>BugBox</Name>
     </ProjectReference>
   </ItemGroup>

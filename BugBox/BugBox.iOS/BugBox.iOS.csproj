@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CE634179-3064-4CDB-9308-24989CB020AA}</ProjectGuid>
+    <ProjectGuid>{2B661CD2-CAD3-48BA-BD9A-D920D3CFD127}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>BugBox.iOS</RootNamespace>
@@ -124,7 +124,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BugBox\BugBox.csproj">
-      <Project>{4535CA13-E5AC-401D-94B0-536291922789}</Project>
+      <Project>{6249486F-DD0C-4AE7-A2DD-4DC4F862B5E8}</Project>
       <Name>BugBox</Name>
     </ProjectReference>
   </ItemGroup>
