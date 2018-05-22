@@ -13,7 +13,7 @@ namespace BugBox
 		{
 			InitializeComponent();
 
-			MainPage = new BugBox.MainPage();
+            MainPage = new BugBox.Pages.MDP();//.MainPage();
 		}
 
 		protected override void OnStart ()
