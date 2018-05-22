@@ -7,5 +7,6 @@
         public string Comment { get; set; }
         public string Latitude { get; set; }
         public string Longitude { get; set; }
+        public int Status { get; set; }
     }
 }
