@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:CONVERTERS ="clr-namespace:BugBox.Converters"
              x:Class="BugBox.App">
     <Application.Resources>
         <ResourceDictionary>
@@ -9,6 +10,9 @@
             <Color x:Key="OrangeStatus">#f4b342</Color>
             <Color x:Key="RedStatus">#CC0000</Color>
             <Color x:Key="GreenStatus">#5cb85c</Color>
+
+            <!--CONVERTIDORES-->
+            <CONVERTERS:IntStatusToColor x:Key="IntStatusToColorKey" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>

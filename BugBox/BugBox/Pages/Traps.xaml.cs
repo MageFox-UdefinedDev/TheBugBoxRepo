@@ -10,8 +10,8 @@ namespace BugBox.Pages
     {
         public Traps()
         {
-            InitializeComponent();
             BindingContext = new TrapsViewModel();
+            InitializeComponent();
         }
     }
 }
