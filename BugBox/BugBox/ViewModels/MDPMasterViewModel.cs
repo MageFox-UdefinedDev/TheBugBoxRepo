@@ -15,9 +15,6 @@ namespace BugBox.ViewModels
             MenuItems = new ObservableCollection<MDPMenuItem>(new[]
             {
                     new MDPMenuItem { Id = 0, Title = "Traps" ,TargetType = typeof(Traps)},
-                    new MDPMenuItem { Id = 1, Title = "Page 1" ,TargetType = typeof(Page1)},
-                    new MDPMenuItem { Id = 2, Title = "Page 2" ,TargetType = typeof(Page2)},
-                    new MDPMenuItem { Id = 3, Title = "Page 3" ,TargetType = typeof(Page3)},
                 });
         }
 
