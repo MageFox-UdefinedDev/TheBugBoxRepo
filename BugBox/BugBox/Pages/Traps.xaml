@@ -26,7 +26,10 @@
                 <BoxView Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Color="Purple" />
             </Grid>
 
-            <ListView ItemsSource="{Binding Traps}">
+            <ListView
+                x:Name="TrapsListView"
+                ItemsSource="{Binding Traps}"
+                ItemSelected="Handle_TrapsListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
