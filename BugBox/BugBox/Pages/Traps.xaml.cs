@@ -18,7 +18,11 @@ namespace BugBox.Pages
         private void Handle_TrapsListView_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
             var trap = e.SelectedItem as Trap;
+            if (trap == null)
+                return;
+
             var page = (Page)Activator.CreateInstance(typeof(TrapDetail), trap);
+            TrapsListView.SelectedItem = null;
             Navigation.PushAsync(page);
         }
     }
