@@ -1,7 +1,5 @@
 ﻿using BugBox.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace BugBox.Services
@@ -15,5 +13,9 @@ namespace BugBox.Services
         Task<List<Person>> GetAllPerson();
 
         Task<Person> FindPerson(int id);
+
+        Task<Person> AddPerson(Person person);
+
+        Task<Trap> AddTrap(Trap trap);
     }
 }

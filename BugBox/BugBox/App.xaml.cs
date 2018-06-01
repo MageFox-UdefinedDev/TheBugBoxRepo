@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace BugBox
 {
@@ -12,8 +7,8 @@ namespace BugBox
         public App()
         {
             InitializeComponent();
-
-            MainPage = new BugBox.Pages.MDP();
+            RegisterDependencies(_mock);
+            MainPage = new Pages.MDP();
         }
 
         protected override void OnStart()

@@ -1,8 +1,7 @@
-﻿using System;
+﻿using BugBox.Models;
+using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using BugBox.Models;
 
 namespace BugBox.Services
 {
@@ -67,6 +66,16 @@ namespace BugBox.Services
         public Person FindPersonPublic(int id)
         {
             return _personList.Find(x => x.PersonId == id);
+        }
+
+        public Task<Person> AddPerson(Person person)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Trap> AddTrap(Trap trap)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion public dummys
